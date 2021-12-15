@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_icon_home"
+            android:title="@string/nav_home" />
+
+        <item
+            android:id="@+id/nav_start_exams"
+            android:icon="@drawable/ic_nav_start_exam"
+            android:title="@string/nav_start_exams" />
+
+        <item
+            android:id="@+id/nav_cgpa_calculator"
+            android:icon="@drawable/ic_nav_calculator"
+            android:title="@string/nav_cgpa_calculator" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black"
+            android:title="@string/search_for_past_questions" />
+
+    </group>
+
+
+    <item
+
+        android:title="@string/nav_profile">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_icon_home"
+                    android:title="@string/nav_login" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="@string/nav_profile" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/nav_logout" />
+            </group>
+        </menu>
+
+
+    </item>
+
+    <item
+
+        android:title="@string/communication">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="@string/nav_share" />
+
+                <item
+                    android:id="@+id/nav_visit_us"
+                    android:icon="@drawable/icons_website"
+                    android:title="@string/nav_visit_us" />
+
+            </group>
+        </menu>
+
+
+    </item>
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyStudyApp</string>
+    <string name="app_slogan">We Study to Pass</string>
+    <string name="applogo">TODO</string>
+    <string name="dashboard_logo">Logo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="www_michaeladalikwu_com">www.michaeladalikwu.com</string>
+    <string name="todo">TODO</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile Account</string>
+    <string name="nav_start_exams">Start Exams</string>
+    <string name="nav_cgpa_calculator">CGPA Calculator</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_logout">Logout</string>
+    <string name="communication">Communication</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_visit_us">Visit Us</string>
+    <string name="search_for_past_questions">Search for Past Questions</string>
+
+</resources>
